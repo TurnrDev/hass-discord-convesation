@@ -1,0 +1,13 @@
+{
+    "domain": "discord_satellite",
+    "name": "Discord Satellite",
+    "version": "0.0.1",
+    "integration_type": "service",
+    "dependencies": ["assist_satellite"],
+    "requirements": ["discord.py"],
+    "codeowners": ["@TurnrDev"],
+    "config_flow": true,
+    "single_config_entry": true,
+    "loggers": ["discord"],
+    "iot_class": "cloud_polling"
+}
