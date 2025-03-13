@@ -3,11 +3,21 @@
     "name": "Discord Satellite",
     "version": "0.0.1",
     "integration_type": "service",
-    "dependencies": ["assist_satellite"],
-    "requirements": ["discord.py"],
-    "codeowners": ["@TurnrDev"],
+    "dependencies": [
+        "assist_satellite"
+    ],
+    "documentation": "https://github.com/TurnrDev/hass-discord-convesation",
+    "issue_tracker": "https://github.com/TurnrDev/hass-discord-convesation/issues",
+    "requirements": [
+        "discord.py"
+    ],
+    "codeowners": [
+        "@TurnrDev"
+    ],
     "config_flow": true,
     "single_config_entry": true,
-    "loggers": ["discord"],
+    "loggers": [
+        "discord"
+    ],
     "iot_class": "cloud_polling"
 }
